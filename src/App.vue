@@ -403,15 +403,15 @@
             </div>
             <div class="grid grid-cols-3 gap-x-4 pt-4">
               <div class="rounded-10 bg-gray-700 p-3">
-                <img src="/img/Youtube-logo.png" alt="" class="w-16" />
+                <img :src="`/img/Youtube-logo.png`" alt="" class="w-16" />
                 <div class="pt-6 text-sm text-white">$39.9/m</div>
               </div>
               <div class="rounded-10 bg-gray-700 p-3">
-                <img src="/img/Netflix-logo.png" alt="" class="w-16" />
+                <img :src="`/img/Netflix-logo.png`" alt="" class="w-16" />
                 <div class="pt-6 text-sm text-white">$45.2/m</div>
               </div>
               <div class="rounded-10 bg-gray-700 p-3">
-                <img src="/img/Spotify-logo.png" alt="" class="w-16" />
+                <img :src="`/img/Spotify-logo.png`" alt="" class="w-16" />
                 <div class="pt-6 text-sm text-white">$59.5/m</div>
               </div>
             </div>
